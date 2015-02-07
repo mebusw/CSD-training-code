@@ -3,6 +3,20 @@ package refactor.travia;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+/*
+        WHEN_add_two_players_THEN_player_count_changed_AND_both_initiated
+        GIVEN_current_player_is_in_penaltyBox_WHEN_roll_odd_number_THEN_he_get_out_of_penaltyBox
+        GIVEN_current_player_is_in_penaltyBox_AND_is_getting_out_WHEN_answer_correctly_THEN_he_get_a_purse_AND_move_to_next_player
+        GIVEN_current_is_last_player_WHEN_answer_wrong_question_THEN_current_player_goto_penaltyBox_AND_move_to_first
+        GIVEN_current_is_first_player_WHEN_answer_wrong_question_THEN_current_player_goto_penaltyBox_AND_move_to_next
+        GIVEN_current_player_has_6_purse_WHEN_answer_right_question_THEN_current_player_win
+        GIVEN_current_player_is_in_penaltyBox_AND_not_getting_out_WHEN_answer_correctly_THEN_just_move_to_next_player
+        GIVEN_current_player_not_in_penaltyBox_WHEN_roll_larger_than_11_THEN_his_place_changed_circlily
+        GIVEN_current_player_is_in_penaltyBox_WHEN_roll_even_number_THEN_he_still_in_penaltyBox
+        GIVEN_current_player_not_in_penaltyBox_WHEN_answer_right_question_THEN_current_player_get_purse
+        GIVEN_current_player_not_in_penaltyBox_WHEN_roll_THEN_his_place_changed
+*/
+
 public class Game
 {
     ArrayList players = new ArrayList();
