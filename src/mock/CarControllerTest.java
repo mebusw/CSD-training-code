@@ -49,7 +49,7 @@ public class CarControllerTest {
 
 		verify(mockElectronics, times(2)).pushBrakes(halfBrakingPower);
 		verify(mockStatusPanel, times(2)).getSpeed();
-        verify(carController, times(2)).stop(anyInt(), any(Electronics.class), any(StatusPanel.class));
+        verify(carController, times(2)).stop(anyInt(), any(Electronics.class), (StatusPanel)anyObject());
 
 	}
 
