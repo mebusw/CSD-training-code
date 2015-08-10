@@ -7,10 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="JavaSE-1.7" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="library" name="junit4" level="project" />
     <orderEntry type="library" name="guava" level="project" />
     <orderEntry type="library" name="mockito-all-1.9.5" level="project" />
   </component>
 </module>
-
