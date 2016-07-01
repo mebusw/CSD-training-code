@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Extract Variable: loopStart = authors;
- * Move this to the pipeline with a filter operation.
- * Map operation
- * Move to a filter operation.
- * Remove the loop and just return the pipeline result.
+ authors.stream()
+ .filter(a -> a.Company == company)
+ .map(a -> a.TwitterHandle)
+ .filter(x -> x != null)
+ .forEach(x -> {
+ result.add(x);
+ });
  */
 public class Author {
 
