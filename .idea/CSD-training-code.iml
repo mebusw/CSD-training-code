@@ -28,5 +28,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jmockit" level="project" />
+    <orderEntry type="library" name="moss-common-2.1.0.0" level="project" />
   </component>
 </module>
