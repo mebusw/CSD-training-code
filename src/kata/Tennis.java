@@ -1,6 +1,6 @@
 package kata;
 
-class Tennis {
+public class Tennis {
 
     private static String[] translation = new String[]{"love", "fifteen", "thirty", "forty"};
 

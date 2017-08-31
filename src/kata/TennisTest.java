@@ -2,10 +2,11 @@ package kata;
 
 import org.junit.Test;
 
-import java.util.Arrays;
+import static org.junit.Assert.*;
 
-import static org.junit.Assert.assertEquals;
-
+/**
+ * Created by jacky on 2017/8/31.
+ */
 public class TennisTest {
     @Test
     public void score() {
