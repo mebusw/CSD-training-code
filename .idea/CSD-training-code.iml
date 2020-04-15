@@ -59,5 +59,6 @@
     <orderEntry type="library" name="groovy" level="application" />
     <orderEntry type="library" name="groovy" level="application" />
     <orderEntry type="library" name="spock-core-1.1-groovy-2.4" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

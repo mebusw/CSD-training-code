@@ -46,6 +46,30 @@ class BankingSpockTest extends spock.lang.Specification {
 
     }
 
+    def "test exception"() {
+        when:
+        throw new RuntimeException("hi-five")
+
+        then:
+        RuntimeException e = thrown()
+        e.message == "hi-five"
+    }
+
+    def add(int x, int y) {
+        x + y
+    }
+
+    def "sum two integers (#x + #y == #expectedResult)"() {
+        when:
+        def result = add(x, y)
+        then:
+        result == expectedResult
+        where:
+        x | y || expectedResult
+        1 | 2 || 3
+        5 | 6 || 11
+    }
+
 }
 
 
